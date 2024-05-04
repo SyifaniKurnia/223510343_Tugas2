@@ -1,0 +1,31 @@
+@import "./base.css";
+
+body {
+  background-image: url(../assets/gambar/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  border: none;
+}
+
+#app {
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.btn-container {
+  margin-top: 10px;
+}
+
+.btn-container button {
+  margin: 5px;
+}
